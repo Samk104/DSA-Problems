@@ -64,7 +64,7 @@ class Solution:
       
       if pCount < pipelineCount:
         pair.add((i, i))
-        res += 2 * throughput[i]   # Changed throughput(i) to throughput[i]
+        res += 2 * throughput[i] 
         pCount += 1
 
       if pCount < pipelineCount and (i, i-1) not in pair:
